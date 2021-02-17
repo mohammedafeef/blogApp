@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dosis:wght@600&family=Playfair+Display:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+    font-size:62.5%;
+    /* variables for the theaming and minimum reductency */
+    --brand-fnt: 'Playfair Display', serif;
+    --brandtag-fnt:'Abril Fatface', cursive;
+    --cnt-fnt:'Dosis', sans-serif;
+    --bg-clr:rgba(255,255,255);
+    --fg-clr:rgba(0,0,0);
+}
+body{
+    width:100vw;
+    height:100vh;
+}
+.root{
+    width:100%;
+    height:100%;
+    overflow:hidden;
 }

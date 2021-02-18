@@ -6,10 +6,10 @@ import {Navbar,Home} from './components/index.js';
 
 const App= ()=> {
   return (
-    <div className="container">
+    <>
       <Navbar/>
       <Home/>
-    </div>
+    </>
   );
 }
 

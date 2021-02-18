@@ -7,18 +7,21 @@
 :root{
     font-size:62.5%;
     /* variables for the theaming and minimum reductency */
-    --brand-fnt: 'Playfair Display', serif;
-    --brandtag-fnt:'Abril Fatface', cursive;
-    --cnt-fnt:'Dosis', sans-serif;
-    --bg-clr:rgba(255,255,255);
-    --fg-clr:rgba(0,0,0);
+    --fnt-brand: 'Playfair Display', serif;
+    --fnt-brandtag:'Abril Fatface', cursive;
+    --fnt-cnt:'Dosis', sans-serif;
+    --clr-bg:white;
+    --clr-fg:black;
 }
 body{
     width:100vw;
     height:100vh;
+    overflow:hidden;
 }
-.root{
+#root{
     width:100%;
     height:100%;
-    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    background-color: var(--clr-bg);
 }

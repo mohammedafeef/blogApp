@@ -1,6 +1,6 @@
 
 import './App.css';
-import {Navbar,Home} from './components/index.js';
+import {Navbar,Home,BlogSection} from './components/index.js';
 // import Navbar from "./components/Navbar";
 // import Home from "./components/Home";
 
@@ -8,7 +8,7 @@ const App= ()=> {
   return (
     <>
       <Navbar/>
-      <Home/>
+      <BlogSection/>
     </>
   );
 }

@@ -1,14 +1,17 @@
 const Blog = ()=>{
     return(
-        <section className="blog">
-            <div className="blog-tittle">
-                <h1></h1>
+        <section className="blog-out">
+            <div className="tittle">
+                <h1>Hacking is hard</h1>
             </div>
-            <div className="blog-date">
-                <h3></h3>
+            <div className="content">
+                <p>Noramally people are thinking that hacking is something that is done by terminal with so many tabs
+                and there must be text which either acces denied or access granted</p>
             </div>
-            <div className="blog-content">
-                <p></p>
+            <div className="expand">
+                <button className="exp-button">
+                    continue <div/>
+                </button>
             </div>
         </section>
     )
